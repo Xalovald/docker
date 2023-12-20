@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nodejs-image:nodejs-example
+    container_name: devops-training
+    build: .
+    ports:
+      - "3000:3000"
